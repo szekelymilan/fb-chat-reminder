@@ -86,12 +86,14 @@ Examples
 
 ```
 $ chatrem create "1" "Take your pills!" "15:00"
+Your reminder has been created successfully.
 ```
 
 #### Delete the reminder with ID "vHnGRQCdj"
 
 ```
 $ chatrem delete "vHnGRQCdj"
+Your reminder has been deleted successfully.
 ```
 
 ## Contributors
