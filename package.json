@@ -1,0 +1,34 @@
+{
+  "name": "fb-chat-reminder",
+  "version": "0.0.1",
+  "description": "Send reminders to your friends through Facebook - from right inside your terminal.",
+  "main": "cli.js",
+  "scripts": {},
+  "bin": {
+    "chatrem": "cli.js"
+  },
+  "repository": "szekelymilan/fb-chat-reminder",
+  "homepage": "https://github.com/szekelymilan/fb-chat-reminder#readme",
+  "author": "Milan Szekely <szekelymilan1125@gmail.com> (https://szekelymilan.eu)",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "configstore": "^5.0.0",
+    "facebook-chat-api": "^1.6.1",
+    "fuse.js": "^3.4.5",
+    "inquirer": "^6.5.0",
+    "inquirer-autocomplete-prompt": "^1.0.1",
+    "inquirer-datepicker-prompt": "^0.4.2",
+    "meow": "^5.0.0",
+    "nanotimer": "^0.3.15",
+    "shortid": "^2.2.14",
+    "update-notifier": "^3.0.1"
+  },
+  "keywords": [
+    "cli",
+    "cli-app",
+    "facebook",
+    "chat",
+    "reminder"
+  ]
+}
